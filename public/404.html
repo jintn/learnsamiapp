@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Only redirect if the 404 page was served, not index.html
+      const redirectUrl = window.location.origin + '/gamelang-studio/';
+      // If current page isn't already index.html, go there
+      if (!window.location.pathname.endsWith('/index.html')) {
+        window.location.replace(redirectUrl);
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
