@@ -23,5 +23,3 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-trigger actions Mon Oct 20 11:19:09 WEDT 2025
